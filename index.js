@@ -16,7 +16,7 @@ function ContentBuilder() {
         }
 
         var elementDiv = document.createElement("div");
-        elementDiv.className = "from-group col-sm-12 col-md-12 mt-2";
+        elementDiv.className = "from-group col-lg-4 col-sm-12 mt-2";
 
         var selectList = document.createElement("select");
         selectList.className = "form-control"
@@ -53,7 +53,7 @@ function ContentBuilder() {
         container.appendChild(elementDiv);
     }
     var buttonsDiv = document.createElement("div");
-    buttonsDiv.className = "form-control col-sm-12 col-md-12 mt-4"
+    buttonsDiv.className = "form-control col-lg-8 col-md-4 col-sm-12 mt-4"
 
     var exceptionLabel = document.createElement("label");
     exceptionLabel.className = "form-control text-danger text-center";
